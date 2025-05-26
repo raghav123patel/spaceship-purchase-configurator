@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.main {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.summary {
+  margin-top: 20px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}

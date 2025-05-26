@@ -1,0 +1,279 @@
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #051544;
+  color: #00ff88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.page-wrapper {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.configurator-container {
+  border: 3px solid #00ff88;
+  padding: 30px;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #051544;
+  color: #00ff88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.page-wrapper {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.configurator-container {
+  border: 3px solid #00ff88;
+  padding: 30px;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:  #051544;
+  border-radius: 10px;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+
+.configurator-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.config-options {
+  flex: 2;
+  min-width: 500px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccffcc;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.option {
+  border: 1px solid #00ff88;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 0 120px;
+  max-width: 160px;
+  background-color: #001a40;
+  color: #00ff88;
+  border-radius: 8px;
+}
+
+.option.selected {
+  border: 2px solid #ff00ff;
+  background-color: #002f5e;
+}
+
+.option .price {
+  font-size: 14px;
+}
+
+.option .label {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.option ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.option .feature {
+  font-size: 12px;
+  text-align: left;
+  color: #99ff99;
+}
+
+.option ul {
+  padding-left: 20px; 
+  list-style: disc;   
+  margin-top: 10px;
+}
+
+
+
+.summary {
+  flex: 1;
+  border: 1px solid #00ff88;
+  background-color: #003300;
+  padding: 20px;
+  color: #ccffcc;
+  border-radius: 8px;
+  min-width: 250px;
+  max-height: fit-content;
+  align-self: flex-start;
+}
+
+.total {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .configurator-body {
+    flex-direction: column;
+  }
+
+  .config-options,
+  .summary {
+    width: 100%;
+  }
+}
+
+  background-color: #051544;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.configurator-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.config-options {
+  flex: 2;
+  min-width: 500px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccffcc;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.option {
+  border: 1px solid #00ff88;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 0 120px;
+  max-width: 160px;
+  background-color: #001a40;
+  color: #00ff88;
+  border-radius: 8px;
+}
+
+.option.selected {
+  border: 2px solid #ff00ff;
+  background-color: #002f5e;
+}
+
+.option .price {
+  font-size: 14px;
+}
+
+.option .label {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.option ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.option .feature {
+  font-size: 12px;
+  text-align: left;
+  color: #99ff99;
+}
+
+
+.summary {
+  flex: 1;
+  border: 1px solid #00ff88;
+  background-color: #003300;
+  padding: 20px;
+  color: #ccffcc;
+  border-radius: 8px;
+  min-width: 250px;
+  max-height: fit-content;
+  align-self: flex-start;
+}
+
+.total {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .configurator-body {
+    flex-direction: column;
+  }
+
+  .config-options,
+  .summary {
+    width: 100%;
+  }
+}
