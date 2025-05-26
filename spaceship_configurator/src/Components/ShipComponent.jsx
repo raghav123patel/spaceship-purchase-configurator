@@ -72,9 +72,9 @@ export default function Configurator() {
                 {colors.map((c) => (
                   <div
                     key={c.label}
-                    className={option ${
+                    className={`option ${
                       color.label === c.label ? "selected" : ""
-                    }}
+                    }`}
                     onClick={() => setColor(c)}
                   >
                     <div
@@ -99,9 +99,9 @@ export default function Configurator() {
                 {powers.map((p) => (
                   <div
                     key={p.label}
-                    className={option ${
+                    className={`option ${
                       power.label === p.label ? "selected" : ""
-                    }}
+                    }`}
                     onClick={() => setPower(p)}
                   >
                     <div className="label">{p.label}</div>
@@ -117,9 +117,9 @@ export default function Configurator() {
                 {warpDrives.map((w) => (
                   <div
                     key={w.label}
-                    className={option ${
+                    className={`option ${
                       warp.label === w.label ? "selected" : ""
-                    }}
+                    }`}
                     onClick={() => setWarp(w)}
                   >
                     <div className="label">{w.label}</div>
@@ -135,9 +135,9 @@ export default function Configurator() {
                 {optionPackages.map((pkg) => (
                   <div
                     key={pkg.label}
-                    className={option ${
+                    className={`option ${
                       option.label === pkg.label ? "selected" : ""
-                    }}
+                    }`}
                     onClick={() => setOption(pkg)}
                   >
                     <div className="label">{pkg.label}</div>
